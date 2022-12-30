@@ -1,6 +1,6 @@
 # OBS_NoMachine
 OBS Studio in der Cloud mit Ubuntu Gnome und NoMachine
-
+```
 # Hetzner Cloud Server mieten, in der Firewall den Port 4000 für NoMachine öffnen,
 # anschließend als root anmelden und dann:
 
@@ -22,3 +22,4 @@ apt update && apt install obs-studio
 # Anmeldung als root mit Passwort
 
 # Jetzt noch den NoMachine-Client auf deinem lokalen Rechner installieren und verbinden - Fertig!
+```
