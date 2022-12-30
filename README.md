@@ -18,6 +18,9 @@ apt install ffmpeg
 add-apt-repository ppa:obsproject/obs-studio
 apt update && apt install obs-studio
 
+# Benutzer ohne Adminrechte hinzufügen
+adduser obsNutzer
+
 # Dies ist keine Anleitung zum Nachmachen, da unsicher, insbesondere:
 # Anmeldung als root mit Passwort
 
