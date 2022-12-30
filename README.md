@@ -1,8 +1,8 @@
 # OBS_NoMachine
 OBS Studio in der Cloud mit Ubuntu Gnome und NoMachine
 ```
-# Hetzner Cloud Server mieten, in der Firewall den Port 4000 für NoMachine öffnen,
-# anschließend als root anmelden und dann:
+# Hetzner Cloud Server mieten, Ubuntu 22.04 LTS auswählen, in der Firewall den Port 4000 für NoMachine öffnen,
+# anschließend per SSH als Benutzer "root" anmelden und dann:
 
 apt update && apt upgrade
 
@@ -26,3 +26,5 @@ adduser obsNutzer
 
 # Jetzt noch den NoMachine-Client auf deinem lokalen Rechner installieren und verbinden - Fertig!
 ```
+Die erste Anmeldung per NoMachine erfolgt als Benutzer "root". Jetzt gegebenfalls noch die Spracheinstellungen des Desktops einstellen und dann die VM neu starten.
+Ab jetzt ist die standartgemäße Anmeldung per NoMachine nur noch als normaler Benutzer möglich. Das ist aktuell der Standart bei Ubuntu. Bis hierher hat dieser Benutzer auch keine "sudo-Rechte". Einstellungen sind per SSH weiterhin als Benutzer "root" möglich.
